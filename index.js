@@ -1170,11 +1170,7 @@ function myfun10sw(num) {
 let trauther22, c_value22, p_value22,s_value22;
 
 
-trauther22 = {price:0,
-             color:"",
-             size""
-            };
-     console.log(JSON.parse(localStorage.getItem('trauther22')));
+trauther22 = JSON.parse(localStorage.getItem('trauther22'));
     document.querySelector('.trauther_2_h6').innerHTML = "  price :" + trauther22.price + " \n color :"  + trauther22.color   + " \n size :" + trauther22.size;
     document.querySelector('.trauther_2_h6').style = "font-size: 12px; font-weight: bold;";
 
