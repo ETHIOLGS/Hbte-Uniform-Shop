@@ -187,7 +187,7 @@ let shirt2, c_value2, p_value2,s_value2;
 
 shirt2 = {};
 
-    JSON.parse(localStorage.getItem('shirt'));
+    JSON.parse(localStorage.getItem('shirt2'));
     document.querySelector('.shirt_2_h6').innerHTML = "  price :" + shirt2.price + " \n color :"  + shirt2.color   + " \n size :" + shirt2.size;
     document.querySelector('.shirt_2_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -201,7 +201,7 @@ function myfun2() {
     shirt2.price = p_value2;
     shirt2.color = c_value2;
     shirt2.size = s_value2;
-    localStorage.setItem('shirt', JSON.stringify(shirt2));
+    localStorage.setItem('shirt2', JSON.stringify(shirt2));
 
 }
 
