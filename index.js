@@ -383,8 +383,13 @@ function myfun4s(num) {
 
 let shirt5, c_value5, p_value5, s_value5;
 
-shirt5 = JSON.parse(localStorage.getItem('shirt5'));
+shirt5 = {
+   price:0,
+   color:"",
+   size:""
+};
 
+    console.log(JSON.parse(localStorage.getItem('shirt5')));
     document.querySelector('.shirt_5_h6').innerHTML = "  price :" + shirt5.price + " \n color :"  + shirt5.color   + " \n size :" + shirt5.size;
     document.querySelector('.shirt_5_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -443,8 +448,13 @@ function myfun5s(num) {
 
 let shirt7, c_value7, p_value7, s_value7;
 
-shirt7 = JSON.parse(localStorage.getItem('shirt7'));
+shirt7 = {
+   price:0,
+   color:"",
+   size:""
+};
 
+    console.log(JSON.parse(localStorage.getItem('shirt7')));
     document.querySelector('.shirt_7_h6').innerHTML = "  price :" + shirt7.price + " \n color :"  + shirt7.color   + " \n size :" + shirt7.size;
     document.querySelector('.shirt_7_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -501,9 +511,13 @@ function myfun7s(num) {
 
 let shirt8, c_value8, p_value8, s_value8;
 
-shirt8 = JSON.parse(localStorage.getItem('shirt8'));
+shirt8 = {
+   price:0,
+   color:"",
+   size:""
+};
 
-    
+    console.log(JSON.parse(localStorage.getItem('shirt8')));
     document.querySelector('.shirt_8_h6').innerHTML = "  price :" + shirt8.price + " \n color :"  + shirt8.color   + " \n size :" + shirt8.size;
     document.querySelector('.shirt_8_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -563,8 +577,13 @@ function myfun8s(num) {
 
 let shirt9, c_value9, p_value9, s_value9;
 
-shirt9 =JSON.parse(localStorage.getItem('shirt9'));
+shirt9 = {
+   price:0,
+   color:"",
+   size:""
+};
 
+    console.log(JSON.parse(localStorage.getItem('shirt9')));
     document.querySelector('.shirt_9_h6').innerHTML = "  price :" + shirt9.price + " \n color :"  + shirt9.color   + " \n size :" + shirt9.size;
     document.querySelector('.shirt_9_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -623,8 +642,13 @@ function myfun9s(num) {
 
 let shirt10, c_value10, p_value10, s_value10;
 
-shirt10 = JSON.parse(localStorage.getItem('shirt10'));
+shirt10 = {
+   price:0,
+   color:"",
+   size:""
+};
 
+    console.log(JSON.parse(localStorage.getItem('shirt10')));
 
     document.querySelector('.shirt_10_h6').innerHTML = "  price :" + shirt10.price + " \n color :"  + shirt10.color   + " \n size :" + shirt10.size;
     document.querySelector('.shirt_10_h6').style = "font-size: 12px; font-weight: bold;";
