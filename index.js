@@ -680,7 +680,7 @@ function myfun10s(num) {
 
 let sweater12, c_value12, p_value12,s_value12;
 
-sweater12 = JSON.parse(localStorage.getItem('sweater120'));
+sweater12 = JSON.parse(localStorage.getItem('sweater12'));
 
     document.querySelector('.sweater_2_h6').innerHTML = "  price :" + sweater12.price + " \n color :"  + sweater12.color   + " \n size :" + sweater12.size;
     document.querySelector('.sweater_2_h6').style = "font-size: 15px; font-weight: bold;";
@@ -695,7 +695,7 @@ function myfun12() {
     sweater12.price = p_value12;
     sweater12.color = c_value12;
     sweater12.size = s_value12;
-    localStorage.setItem('sweater120', JSON.stringify(sweater12));
+    localStorage.setItem('sweater12', JSON.stringify(sweater12));
 
 }
 
@@ -1170,8 +1170,11 @@ function myfun10sw(num) {
 let trauther22, c_value22, p_value22,s_value22;
 
 
-trauther22 =JSON.parse(localStorage.getItem('trauther120'));
-
+trauther22 = {price:0,
+             color:"",
+             size""
+            };
+     console.log(JSON.parse(localStorage.getItem('trauther22')));
     document.querySelector('.trauther_2_h6').innerHTML = "  price :" + trauther22.price + " \n color :"  + trauther22.color   + " \n size :" + trauther22.size;
     document.querySelector('.trauther_2_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -1185,7 +1188,7 @@ function myfun22() {
     trauther22.price = p_value22;
     trauther22.color = c_value22;
     trauther22.size = s_value22;
-    localStorage.setItem('trauther120', JSON.stringify(trauther22));
+    localStorage.setItem('trauther22', JSON.stringify(trauther22));
 
 }
 function myfun2t(num) {
