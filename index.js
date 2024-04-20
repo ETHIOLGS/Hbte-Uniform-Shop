@@ -185,8 +185,13 @@ function myfun03() {
 
 let shirt2, c_value2, p_value2,s_value2;
 
-shirt2 = JSON.parse(localStorage.getItem('shirt'));
+shirt2 = {
+   price:0,
+   color:"",
+   size:""
+};
 
+    JSON.parse(localStorage.getItem('shirt'));
     document.querySelector('.shirt_2_h6').innerHTML = "  price :" + shirt2.price + " \n color :"  + shirt2.color   + " \n size :" + shirt2.size;
     document.querySelector('.shirt_2_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -246,9 +251,13 @@ function myfun2s(num) {
    
 let shirt3, c_value3, p_value3, s_value3;
 
-shirt3 = JSON.parse(localStorage.getItem('shirt3'));
+shirt3 = {
+   price:0,
+   color:"",
+   size:""
+};
 
-    
+    JSON.parse(localStorage.getItem('shirt3'));
     document.querySelector('.shirt_3_h6').innerHTML = "  price :" + shirt3.price + " \n color :"  + shirt3.color   + " \n size :" + shirt3.size;
     document.querySelector('.shirt_3_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -309,8 +318,13 @@ function myfun3s(num) {
 
 let shirt4, c_value4, p_value4, s_value4;
 
-shirt4 = JSON.parse(localStorage.getItem('shirt4'));
+shirt4 = {
+   price:0,
+   color:"",
+   size:""
+};
 
+    JSON.parse(localStorage.getItem('shirt4'));
     document.querySelector('.shirt_4_h6').innerHTML = "  price :" + shirt4.price + " \n color :"  + shirt4.color   + " \n size :" + shirt4.size;
     document.querySelector('.shirt_4_h6').style = "font-size: 12px; font-weight: bold;";
 
