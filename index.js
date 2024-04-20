@@ -692,7 +692,7 @@ function myfun12() {
     c_value12 = String(document.querySelector(".input_color1").value);
     p_value12 = Number(document.querySelector(".input_price1").value);
 
-    sweater12.price = p_value12;
+    sweater12.price += p_value12;
     sweater12.color = c_value12;
     sweater12.size = s_value12;
     localStorage.setItem('sweater12', JSON.stringify(sweater12));
