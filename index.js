@@ -1167,12 +1167,12 @@ function myfun9sw(num) {
 
 let sweater110, c_value110, p_value110, s_value110;
 
-/*sweater10 = JSON.parse(localStorage.getItem('sweater14'));*/
-sweater10 = {
+/*sweater110 = JSON.parse(localStorage.getItem('sweater14'));*/
+sweater110 = {
    price:0,
    color:"",
    size:""};
-    console.log(JSON.parse(localStorage.getItem('sweater10')));
+    console.log(JSON.parse(localStorage.getItem('sweater110')));
     document.querySelector('.sweater_10_h6').innerHTML = "  price :" + sweater110.price + " \n color :"  + sweater110.color   + " \n size :" + sweater110.size;
     document.querySelector('.sweater_10_h6').style = "color: red;font-size: 15px; font-weight: bold;";
 
