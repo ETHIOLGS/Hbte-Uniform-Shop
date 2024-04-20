@@ -191,7 +191,7 @@ shirt2 = {
    size:""
 };
 
-    JSON.parse(localStorage.getItem('shirt'));
+    console.log(JSON.parse(localStorage.getItem('shirt')));
     document.querySelector('.shirt_2_h6').innerHTML = "  price :" + shirt2.price + " \n color :"  + shirt2.color   + " \n size :" + shirt2.size;
     document.querySelector('.shirt_2_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -257,7 +257,7 @@ shirt3 = {
    size:""
 };
 
-    JSON.parse(localStorage.getItem('shirt3'));
+    console.log(JSON.parse(localStorage.getItem('shirt3')));
     document.querySelector('.shirt_3_h6').innerHTML = "  price :" + shirt3.price + " \n color :"  + shirt3.color   + " \n size :" + shirt3.size;
     document.querySelector('.shirt_3_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -324,7 +324,7 @@ shirt4 = {
    size:""
 };
 
-    JSON.parse(localStorage.getItem('shirt4'));
+    console.log(JSON.parse(localStorage.getItem('shirt4')));
     document.querySelector('.shirt_4_h6').innerHTML = "  price :" + shirt4.price + " \n color :"  + shirt4.color   + " \n size :" + shirt4.size;
     document.querySelector('.shirt_4_h6').style = "font-size: 12px; font-weight: bold;";
 
