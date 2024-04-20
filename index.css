@@ -1,0 +1,3371 @@
+/* this style for body onliy*/
+.body {
+    margin: auto;
+    width: 480px;
+    position: static;
+}
+
+
+
+
+
+
+
+/* this style for title onliy*/
+
+.head_1 {
+    background-image: url(BH2.png);
+}
+
+.h1 {
+    text-align: center;
+    color: rgb(249, 249, 249);
+    text-shadow: 12px 12px 12px gray;
+}
+
+
+
+
+
+
+/* this style for search leable onliy*/
+
+.label_1 {
+    color: white;
+    font: bolder;
+    text-shadow: 12px 12px 12px gray;
+}
+
+.input_1 {
+    width: 80px;
+    height: 18.4px;
+    border-width: 1px;
+    border-right-style: hidden;
+    transform: translatex(5px);
+}
+
+.bt_search {
+    border-width: 1px;
+    border-left-style: hidden;
+}
+
+.img_search {
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+
+
+/* this style only for sign up button*/
+
+.bt_sign_up {
+    display: inline-block;
+    width: 70px;
+    border-radius: 9px;
+    margin-left: 170px;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 15px rgb(184, 176, 176);
+    transition: transform 01s;
+}
+
+.bt_sign_up:hover {
+    border: 1px solid white;
+    color: #fdf9f9;
+    background-color: rgb(43, 37, 37);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transform: scale(0.9,0.9);
+}
+
+
+
+
+
+/* this style only for login button*/
+
+.bt_login {
+    display: inline-block;
+    width: 50px;
+    border-radius: 9px;
+    margin-left: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 15px rgb(184, 176, 176);
+    transition: transform 01s;
+}
+
+.bt_login:hover {
+    border: 1px solid white;
+    color: #fdf9f9;
+    background-color: rgb(43, 37, 37);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transform: scale(0.9,0.9);
+}
+
+
+
+
+
+/* this style for nav_bar onliy*/
+
+.div2 {
+    margin: auto;
+    max-width: 480px;
+    background-color: black;
+    height: 25px;
+}
+
+
+.b1, .b2, .b3, .b4, .b5, .b6 {
+    float: left;
+    width: 16.4%;
+    height: 25px;
+    padding: 3px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.b1:hover {
+    background-color: rgb(194, 185, 185);
+    color: black;
+    width: 16.4%;
+    font-weight: bolder;
+}
+
+.b2:hover {
+    background-color: rgb(194, 185, 185);
+    color: black;
+    width: 16.4%;
+    font-weight: bolder;
+}
+
+.b3:hover {
+    background-color: rgb(194, 185, 185);
+    color: black;
+    width: 16.4%;
+    font-weight: bolder;
+}
+
+.b4:hover {
+    background-color: rgb(194, 185, 185);
+    color: black;
+    width: 16.4%;
+    font-weight: bolder;
+}
+.b5:hover {
+    background-color: rgb(194, 185, 185);
+    color: black;
+    width: 16.4%;
+    font-weight: bolder;
+}
+
+.b6:hover {
+    background-color: rgb(194, 185, 185);
+    color: black;
+    width: 16.4%;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+/* this style for schoollist onliy*/
+
+
+.school_list {
+    margin: auto;
+    width: 480px;
+    float: left;
+    height: auto;
+    background-color: black;
+}
+
+.dr, .dr1, .dr2, .dr3 {
+    display: inline-block;
+    width: 22.8%; 
+    margin: 0.75%; 
+}
+
+.a1 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.a1:hover {
+    background-color: hwb(0 88% 7% / 0.899);
+    color: rgb(15, 14, 14);
+}
+
+
+
+
+
+/* this style only for age list*/
+
+
+
+.age_list {
+    width: 480px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.age_1, .age_2, .age_3 {
+    display: inline-block;
+    width: 20%;
+    margin: 5px 4% 5px 4%;
+}
+
+
+
+
+
+
+/* this style only for color list*/
+
+
+
+.color_list {
+    width: 480px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.color_1, .color_2, .color_3 {
+    display: inline-block;
+    width: 22%;
+    margin: 5px 4% 5px 4%;
+    text-align: left;
+}
+
+
+
+
+
+/* this sttyle onliy for scroll image */
+
+.h2 {
+    background-color: black;
+    color: white;
+}
+.scroll_img {
+    width: 480px;
+    margin: auto;
+}
+
+.im1, .im2, .im3, .im4, .im5, .im6 {
+    width: 90px;
+}
+
+
+
+
+
+/* this style only for text1 */
+
+.text_1 {
+    margin: auto;
+    width: 470px;
+    height: 144px;
+    display: block;
+}
+
+.text_10 {
+    display: block;
+    width: 470px;
+    background-color: rgb(40, 37, 37);
+    transform: translateY(-20px);
+}
+.text_101 {
+    text-align: justify;
+    color: #ffffff;
+    padding: 0px 10px;
+    
+}
+
+.text_11 {
+    display: block;
+    width: 470px;
+    background-color: #efe8e8;
+    transform: translateY(-42px);
+}
+.text_111 {
+    text-align: justify;
+    color: black;
+    padding: 0px 10px;
+    
+}
+
+
+
+/* this style only for all static uniform list*/
+
+.static_img_list {
+    width: 480px;
+
+}
+
+/* this style only for all static shirt */
+
+.shirt {
+    margin: auto;
+    display: block;
+    width: 480px;
+}
+
+.shirt_name {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* this style for static shirt_left only*/
+
+.shirt_left {
+    position: absolute;
+    margin: 14px 7px 10px 0px;
+    width: 90px;
+    height: 364px;
+    display: inline-block;
+    background-image: url(BH2.png);
+    border: 4px solid black;
+    text-align: center;
+}
+
+.shirt_left_input {
+    width: 60px;
+    display: inline-block;
+}
+
+.s_l_sr {
+    display: inline-block;
+    width: 10px;
+}
+
+.s_l_li {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.s_l_li:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+
+.shirt_right {
+    margin: 10px 5px 10px 100px;
+    width: 375px;
+    height: 300px;
+    display: inline-block;
+}
+
+
+
+
+
+/* this style only for static shirt 2*/
+
+.shirt_2_full {
+    margin: 2px 0px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(216, 201, 201);
+}
+
+.shirt_2_content {
+    width: 90px;
+    text-align: center;
+}
+
+.shirt_2_a {
+    text-align: center;
+}
+
+.shirt_2_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.shirt_2_a:hover .shirt_2_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.shirt_2_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    font-size: 11px;
+}
+
+.shirt_2_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+
+.shirt_2_star2 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.star2 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.star2_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.shirt_2_star2:hover .star2_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}
+
+
+
+/* this style only for static shirt 3*/
+
+.shirt_3_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.shirt_3_content {
+    width: 90px;
+    text-align: center;
+}
+
+.shirt_3_a {
+    text-align: center;
+}
+
+.shirt_3_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.shirt_3_a:hover .shirt_3_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.shirt_3_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.shirt_3_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+
+.shirt_3_star3 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.star3 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.star3_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.shirt_3_star3:hover .star3_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}
+
+
+
+
+/* this style only for static shirt 4*/
+
+.shirt_4_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.shirt_4_content {
+    width: 90px;
+    text-align: center;
+}
+
+.shirt_4_a {
+    text-align: center;
+}
+
+.shirt_4_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.shirt_4_a:hover .shirt_4_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.shirt_4_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    font-family: 12px;
+    font-weight: bold;
+}
+
+.shirt_4_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+.shirt_4_star4 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.star4 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.star4_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.shirt_4_star4:hover .star4_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}
+
+
+
+/* this style only for static shirt 5*/
+
+.shirt_5_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.shirt_5_content {
+    width: 90px;
+    text-align: center;
+}
+
+.shirt_5_a {
+    text-align: center;
+}
+
+.shirt_1_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.shirt_5_a:hover .shirt_5_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.shirt_5_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.shirt_5_img_1 {
+    width: 90px;
+    height: 90px;
+    transition: transform 2s;
+}
+
+.shirt_5_star5 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.star5 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.star5_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.shirt_5_star5:hover .star5_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}
+
+
+/* no style  for static shirt 6 it's delete*/
+
+
+/* this style only for static shirt 7*/
+
+.shirt_7_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.shirt_7_content {
+    width: 90px;
+    text-align: center;
+}
+
+.shirt_7_a {
+    text-align: center;
+}
+
+.shirt_7_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.shirt_7_a:hover .shirt_7_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.shirt_7_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.shirt_7_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+.shirt_7_star7 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.star7 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 17px gold;
+}
+
+.star7_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.shirt_7_star7:hover .star7_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}
+
+
+
+
+/* this style only for static shirt 9*/
+
+.shirt_8_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.shirt_8_content {
+    width: 90px;
+    text-align: center;
+}
+
+.shirt_8_a {
+    text-align: center;
+}
+
+.shirt_8_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.shirt_8_a:hover .shirt_8_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.shirt_8_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.shirt_8_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+
+.shirt_8_star8 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.star8 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gold;
+}
+
+.star8_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.shirt_8_star8:hover .star8_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}
+
+
+
+
+/* this style only for static shirt 9*/
+
+.shirt_9_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.shirt_9_content {
+    width: 90px;
+    text-align: center;
+}
+
+.shirt_9_a {
+    text-align: center;
+}
+
+.shirt_9_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.shirt_9_a:hover .shirt_9_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.shirt_9_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.shirt_9_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+
+.shirt_9_star9 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.star9 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.star9_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.shirt_9_star9:hover .star9_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}
+
+
+/* this style only for static shirt 1*/
+
+
+.shirt_10_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.shirt_10_content {
+    width: 90px;
+    text-align: center;
+}
+
+.shirt_10_a {
+    text-align: center;
+}
+
+.shirt_10_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.shirt_10_a:hover .shirt_10_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.shirt_10_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.shirt_10_img_1 {
+    width: 90px;
+    height: 90px;
+    transition: transform 2s;
+}
+
+
+.shirt_10_star10 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.star10 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.star10_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.shirt_10_star10:hover .star10_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}
+
+
+
+
+
+
+.text_2 {
+    background-image: url(BH2.png);
+    color: white;
+    text-align: justify;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
+/* this style only for all static sweater*/
+
+.sweater {
+    margin: 5px;
+    display: block;
+    width: 470px;
+}
+
+.sweater_name {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+
+
+/* this style for static sweater_left only*/
+
+.sweater_left {
+    position: absolute;
+    margin: 14px 7px 10px 0px;
+    width: 90px;
+    height: 392px;
+    display: inline-block;
+    background-image: url(BH2.png);
+    border: 4px solid black;
+    text-align: center;
+}
+
+.sweater_left_input {
+    width: 60px;
+    display: inline-block;
+}
+
+.sw_l_sr {
+    display: inline-block;
+    width: 10px;
+}
+
+.sw_l_li {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.sw_l_li:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+
+.sweater_right {
+    margin: 10px 5px 10px 100px;
+    width: 375px;
+    height: 300px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+/* this style only for static sweater 2*/
+
+.sweater_2_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.sweater_2_content {
+    width: 90px;
+    text-align: center;
+}
+
+.sweater_2_a {
+    text-align: center;
+}
+
+.sweater_2_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.sweater_2_a:hover .sweater_2_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.sweater_2_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.sweater_2_img_1 {
+    width: 90px;
+    height: 99px;
+    transition: transform 2s;
+}
+
+.sweater_2_star2 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.starw2 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.starw2_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.sweater_2_star2:hover .starw2_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}
+
+
+
+
+
+/* this style only for static sweater 3*/
+
+.sweater_3_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.sweater_3_content {
+    width: 90px;
+    text-align: center;
+}
+
+.sweater_3_a {
+    text-align: center;
+}
+
+.sweater_3_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.sweater_3_a:hover .sweater_3_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.sweater_3_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.sweater_3_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+.sweater_3_star3 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.starw3 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.starw3_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.sweater_3_star3:hover .starw3_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}
+
+
+
+
+
+/* this style only for static sweater 4*/
+
+.sweater_4_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.sweater_4_content {
+    width: 90px;
+    text-align: center;
+}
+
+.sweater_4_a {
+    text-align: center;
+}
+
+.sweater_4_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.sweater_4_a:hover .sweater_4_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.sweater_4_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.sweater_4_img_1 {
+    width: 90px;
+    height: 98px;
+    transition: transform 2s;
+}
+
+.sweater_4_star4 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.starw4 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.starw4_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.sweater_4_star4:hover .starw4_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}                           
+
+
+
+
+
+
+
+/* this style only for static sweater 5*/
+
+.sweater_5_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.sweater_5_content {
+    width: 90px;
+    text-align: center;
+}
+
+.sweater_5_a {
+    text-align: center;
+}
+
+.sweater_1_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.sweater_5_a:hover .sweater_5_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.sweater_5_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.sweater_5_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+.sweater_5_star5 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.starw5 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.starw5_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.sweater_5_star5:hover .starw5_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}                           
+
+
+
+
+
+
+/* no style for static sweater 6 it's deleted*/
+
+
+
+/* this style only for static sweater 7*/
+
+.sweater_7_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.sweater_7_content {
+    width: 90px;
+    text-align: center;
+}
+
+.sweater_7_a {
+    text-align: center;
+}
+
+.sweater_7_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.sweater_7_a:hover .sweater_7_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.sweater_7_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.sweater_7_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+.sweater_7_star7 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.starw7 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.starw7_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.sweater_7_star7:hover .starw7_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}                           
+
+
+
+
+
+
+
+
+/* this style only for static sweater 8*/
+
+.sweater_8_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.sweater_8_content {
+    width: 90px;
+    text-align: center;
+}
+
+.sweater_8_a {
+    text-align: center;
+}
+
+.sweater_8_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.sweater_8_a:hover .sweater_8_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.sweater_8_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.sweater_8_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+.sweater_8_star8 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.starw8 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.starw8_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.sweater_8_star8:hover .starw8_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}                           
+
+
+
+
+
+
+
+
+/* this style only for static sweater 9*/
+
+.sweater_9_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.sweater_9_content {
+    width: 90px;
+    text-align: center;
+}
+
+.sweater_9_a {
+    text-align: center;
+}
+
+.sweater_9_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.sweater_9_a:hover .sweater_9_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.sweater_9_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.sweater_9_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+.sweater_9_star9 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.starw9 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.starw9_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.sweater_9_star9:hover .starw9_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}                           
+
+
+
+
+
+
+
+
+/* this style only for static sweater 10*/
+
+
+.sweater_10_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.sweater_10_content {
+    width: 90px;
+    text-align: center;
+}
+
+.sweater_10_a {
+    text-align: center;
+}
+
+.sweater_10_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.sweater_10_a:hover .sweater_10_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.sweater_10_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.sweater_10_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+.sweater_10_star10 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.starw10 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.starw10_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.sweater_10_star10:hover .starw10_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}                           
+
+
+
+
+
+
+
+
+
+
+/* this style only for all static dress */
+
+.dress {
+    margin: auto;
+    display: block;
+    width: 480px;
+}
+
+.dress_name {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* this style for static dress_left only*/
+
+.dress_left {
+    position: absolute;
+    margin: 15px 7px 10px 0px;
+    width: 90px;
+    height: 364px;
+    display: inline-block;
+    background-image: url(BH2.png);
+    border: 4px solid black;
+    text-align: center;
+}
+
+.dress_left_input {
+    width: 60px;
+    display: inline-block;
+}
+
+.s_l_sr {
+    display: inline-block;
+    width: 10px;
+}
+
+.s_l_li {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.s_l_li:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+
+.dress_right {
+    margin: 10px 5px 10px 100px;
+    width: 375px;
+    height: 300px;
+    display: inline-block;
+}
+
+
+
+
+
+/* this style only for static dress 2*/
+
+.dress_2_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.dress_2_content {
+    width: 90px;
+    text-align: center;
+}
+
+.dress_2_a {
+    text-align: center;
+}
+
+.dress_2_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.dress_2_a:hover .dress_2_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.dress_2_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    font-size: 11px;
+}
+
+.dress_2_img_1 {
+    width: 90px;
+    height: 90px;
+    transition: transform 2s;
+}
+
+.dress_2_star2 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.stard2 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.stard2_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.dress_2_star2:hover .stard2_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+/* this style only for static dress 3*/
+
+.dress_3_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.dress_3_content {
+    width: 90px;
+    text-align: center;
+}
+
+.dress_3_a {
+    text-align: center;
+}
+
+.dress_3_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.dress_3_a:hover .dress_3_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.dress_3_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.dress_3_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+.dress_3_star3 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.stard3 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.stard3_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.dress_3_star3:hover .stard3_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+/* this style only for static dress 4*/
+
+.dress_4_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.dress_4_content {
+    width: 90px;
+    text-align: center;
+}
+
+.dress_4_a {
+    text-align: center;
+}
+
+.dress_4_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.dress_4_a:hover .dress_4_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.dress_4_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    font-family: 12px;
+    font-weight: bold;
+}
+
+.dress_4_img_1 {
+    width: 90px;
+    height: 90px;
+    transition: transform 2s;
+}
+
+.dress_4_star4 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.stard4 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.stard4_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.dress_4_star4:hover .stard4_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+/* this style only for static dress 5*/
+
+.dress_5_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.dress_5_content {
+    width: 90px;
+    text-align: center;
+}
+
+.dress_5_a {
+    text-align: center;
+}
+
+.dress_1_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.dress_5_a:hover .dress_5_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.dress_5_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.dress_5_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+.dress_5_star5 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.stard5 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.stard5_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.dress_5_star5:hover .stard5_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+/* no style  for static dress 6 it's delete*/
+
+
+/* this style only for static dress 7*/
+
+.dress_7_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.dress_7_content {
+    width: 90px;
+    text-align: center;
+}
+
+.dress_7_a {
+    text-align: center;
+}
+
+.dress_7_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.dress_7_a:hover .dress_7_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.dress_7_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.dress_7_img_1 {
+    width: 90px;
+    height: 90px;
+    transition: transform 2s;
+}
+
+.dress_7_star7 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.stard7 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.stard7_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.dress_7_star7:hover .stard7_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+/* this style only for static dress 9*/
+
+.dress_8_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.dress_8_content {
+    width: 90px;
+    text-align: center;
+}
+
+.dress_8_a {
+    text-align: center;
+}
+
+.dress_8_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.dress_8_a:hover .dress_8_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.dress_8_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.dress_8_img_1 {
+    width: 90px;
+    height: 90px;
+    transition: transform 2s;
+}
+.dress_8_star8 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.stard8 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.stard8_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.dress_8_star8:hover .stard8_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+/* this style only for static dress 9*/
+
+.dress_9_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.dress_9_content {
+    width: 90px;
+    text-align: center;
+}
+
+.dress_9_a {
+    text-align: center;
+}
+
+.dress_9_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.dress_9_a:hover .dress_9_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.dress_9_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.dress_9_img_1 {
+    width: 90px;
+    
+    transition: transform 2s;
+}
+.dress_9_star9 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.stard9 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.stard9_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.dress_9_star9:hover .stard9_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+/* this style only for static dress 1*/
+
+
+.dress_10_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.dress_10_content {
+    width: 90px;
+    text-align: center;
+}
+
+.dress_10_a {
+    text-align: center;
+}
+
+.dress_10_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.dress_10_a:hover .dress_10_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.dress_10_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.dress_10_img_1 {
+    width: 90px;
+    height: 90px;
+    transition: transform 2s;
+}
+
+.dress_10_star10 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.stard10 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.stard10_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.dress_10_star10:hover .stard10_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+
+/* this style only for all static trauther */
+
+.trauther {
+    margin: auto;
+    display: block;
+    width: 480px;
+}
+
+.trauther_name {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* this style for static trauther_left only*/
+
+.trauther_left {
+    position: absolute;
+    margin: 15px 7px 10px 0px;
+    width: 90px;
+    height: 364px;
+    display: inline-block;
+    background-image: url(BH2.png);
+    border: 4px solid black;
+    text-align: center;
+}
+
+.trauther_left_input {
+    width: 60px;
+    display: inline-block;
+}
+
+.s_l_sr {
+    display: inline-block;
+    width: 10px;
+}
+
+.s_l_li {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.s_l_li:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+
+.trauther_right {
+    margin: 10px 5px 10px 100px;
+    width: 375px;
+    height: 300px;
+    display: inline-block;
+}
+
+
+
+
+
+/* this style only for static trauther 2*/
+
+.trauther_2_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.trauther_2_content {
+    width: 90px;
+    text-align: center;
+}
+
+.trauther_2_a {
+    text-align: center;
+}
+
+.trauther_2_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.trauther_2_a:hover .trauther_2_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.trauther_2_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    font-size: 11px;
+}
+
+.trauther_2_img_1 {
+    width: 50px;
+    transition: transform 2s;
+}
+
+.trauther_2_star2 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.start2 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.start2_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.trauther_2_star2:hover .start2_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+/* this style only for static trauther 3*/
+
+.trauther_3_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.trauther_3_content {
+    width: 90px;
+    text-align: center;
+}
+
+.trauther_3_a {
+    text-align: center;
+}
+
+.trauther_3_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.trauther_3_a:hover .trauther_3_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.trauther_3_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.trauther_3_img_1 {
+    width: 54px;
+    transition: transform 2s;
+}
+
+.trauther_3_star3 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.start3 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.start3_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.trauther_3_star3:hover .start3_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+/* this style only for static trauther 4*/
+
+.trauther_4_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.trauther_4_content {
+    width: 90px;
+    text-align: center;
+}
+
+.trauther_4_a {
+    text-align: center;
+}
+
+.trauther_4_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.trauther_4_a:hover .trauther_4_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.trauther_4_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    font-family: 12px;
+    font-weight: bold;
+}
+
+.trauther_4_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+.trauther_4_star4 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.start4 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.start4_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.trauther_4_star4:hover .start4_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+/* this style only for static trauther 5*/
+
+.trauther_5_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.trauther_5_content {
+    width: 90px;
+    text-align: center;
+}
+
+.trauther_5_a {
+    text-align: center;
+}
+
+.trauther_1_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.trauther_5_a:hover .trauther_5_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.trauther_5_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.trauther_5_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+.trauther_5_star5 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.start5 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.start5_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.trauther_5_star5:hover .start5_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+/* no style  for static trauther 6 it's delete*/
+
+
+/* this style only for static trauther 7*/
+
+.trauther_7_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.trauther_7_content {
+    width: 90px;
+    text-align: center;
+}
+
+.trauther_7_a {
+    text-align: center;
+}
+
+.trauther_7_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.trauther_7_a:hover .trauther_7_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.trauther_7_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.trauther_7_img_1 {
+    width: 90px;
+    height: 90px;
+    transition: transform 2s;
+}
+.trauther_7_star7 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.start7 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.start7_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.trauther_7_star7:hover .start7_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+/* this style only for static trauther 9*/
+
+.trauther_8_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.trauther_8_content {
+    width: 90px;
+    text-align: center;
+}
+
+.trauther_8_a {
+    text-align: center;
+}
+
+.trauther_8_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.trauther_8_a:hover .trauther_8_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.trauther_8_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.trauther_8_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+.trauther_8_star8 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.start8 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.start8_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.trauther_8_star8:hover .start8_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+/* this style only for static trauther 9*/
+
+.trauther_9_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.trauther_9_content {
+    width: 90px;
+    text-align: center;
+}
+
+.trauther_9_a {
+    text-align: center;
+}
+
+.trauther_9_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.trauther_9_a:hover .trauther_9_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.trauther_9_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.trauther_9_img_1 {
+    width: 90px;
+    height: 90px;
+    transition: transform 2s;
+}
+.trauther_9_star9 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.start9 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.start9_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.trauther_9_star9:hover .start9_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+
+/* this style only for static trauther 1*/
+
+
+.trauther_10_full {
+    margin-top: 4px;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(211, 200, 200);
+}
+
+.trauther_10_content {
+    width: 90px;
+    text-align: center;
+}
+
+.trauther_10_a {
+    text-align: center;
+}
+
+.trauther_10_full:hover {
+    background-color: white; /* ll */
+    box-shadow: 10px 10px 12px rgb(251, 248, 248);
+}
+.trauther_10_a:hover .trauther_10_img_1{
+    transform: scale(0.9, 0.9);
+}
+
+.trauther_10_h6 {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.trauther_10_img_1 {
+    width: 90px;
+    transition: transform 2s;
+}
+
+.trauther_10_star10 {
+    display: block;
+    background-color: black;
+    height: 26px;
+}
+
+.start10 {
+    margin: 7px 0px;
+    display: inline-block;
+    width: 13px;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+}
+
+.start10_bt{
+    height: 20px;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    border: 0.1 solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 12px gold;
+    margin-left: 15px;
+}
+
+.trauther_10_star10:hover .start10_bt{
+
+    display: block;
+    background-color: goldenrod;
+    transform: translate(0px, -5px);
+    
+}  
+
+
+
+
+
+
+
+
+
+/*this style for footer*/
+
+.footer_1 {
+    margin: auto;
+    width: 470px;
+    display: block;
+    background-color: black;
+}
+
+.foot_11 {
+    width: 470px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+
+.foot_111, .foot_112 {
+    width: 150px;
+    height: auto;
+    border-right: 2px solid white;
+}   
+
+.foot_113 {
+    width: 150px;
+    height: auto;
+}
+
+li {
+    float: bottom;
+    list-style-type: none;
+}
+
+.foot_113_al {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.foot_113_al:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+
+
+
+
+
+.foot_12 {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+    background-color: black;
+    color: white;
+    border: 3px double black;
+}
+
+
+
+
+
+
+
+.foot_13 {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+.foot_13_ul2 {
+    width: 90%;
+    margin-left: 5px ;
+    text-align: center;
+}
+
+.foot_li{
+    width: 20%;
+    float: left;
+    list-style-type: none;
+}
+
+.foot_13_al1 {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+.foot_13_al1:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+
+
+
+
+.f4 {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.foot_14_a {
+    width: 20%;
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+.foot_14_a:hover {
+    background-color: gray;
+    color: black;
+}
+
+.foot_14_im {
+    width: 10px;
+    border-radius: 13px;
+    color: rgb(255, 253, 253);
+}
+
+
+
+
+
+
+
+
+/* this style only for login form */
+
+.login_form {
+    width: 470px;
+    margin: auto;
+}
+
+.login_h1 {
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    text-shadow: 0 0 12px aqua;
+}
+
+.fieldset {
+    width: 55%;
+    margin: auto;
+    border: 4px double rgb(33, 198, 30);
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0px 0px 29px aqua;
+
+}
+
+
+.input_login_e {
+    border: 4px double rgb(33, 198, 30);
+}
+.input_login_e:hover {
+    border: 4px double rgb(33, 198, 30);
+    box-shadow: 0px 0px 49px aqua;
+}
+
+
+.input_login_pw {
+    border: 4px double rgb(33, 198, 30);
+}
+.input_login_pw:hover {
+    border: 4px double rgb(33, 198, 30);
+    box-shadow: 0px 0px 49px aqua;
+}
+
+
+.input_submit {
+    border-radius: 8px;
+}
+.input_submit:hover {
+    background-color: aqua;
+    color: white;
+    box-shadow: 0px 0px 49px aqua;
+}
+
+
+
+
+
+
+
+
+
+/* this style only for sign up form */
+
+legend {
+    border: 4px double rgb(33, 198, 30);
+    border-radius: 12px;
+    box-shadow: 0px 0px 29px aqua;
+}
+.signup_form {
+    width: 470px;
+    margin: auto;
+}
+
+.signup_h1 {
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    text-shadow: 0 0 12px aqua;
+}
+
+.fieldset_sp {
+    width: 55%;
+    margin: auto;
+    border: 4px double rgb(33, 198, 30);
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0px 0px 29px aqua;
+
+}
+
+
+.input_signup_e {
+    border: 4px double rgb(33, 198, 30);
+}
+.input_signup_e:hover {
+    border: 4px double rgb(33, 198, 30);
+    box-shadow: 0px 0px 49px aqua;
+}
+
+
+.input_signup_pw {
+    border: 4px double rgb(33, 198, 30);
+}
+.input_signup_pw:hover {
+    border: 4px double rgb(33, 198, 30);
+    box-shadow: 0px 0px 49px aqua;
+}
+
+
+.input_submit {
+    border-radius: 8px;
+}
+.input_submit:hover {
+    background-color: aqua;
+    color: white;
+    box-shadow: 0px 0px 49px aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* this style only for the admin side */
+
+.as_h1 {
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    text-shadow: 0 0 12px #37ff00;
+}
+.admin_side {
+    width: 480px;
+    margin: auto;
+}
+
+
+.admin_side_shirt {
+    width: 460px;
+    margin: auto;
+}
+
+.afh {
+    margin: auto;
+    width: 210px;
+    border: 2px double white;
+    border-radius: 7px;
+    box-shadow: 3px 3px 23px #acfc34;
+}
+
+.al1, .al2, .al3 {
+    color: white;
+}
+
+.input_color, .input_size, .input_price {
+    width: 100px;
+}
+.input_color1, .input_size1, .input_price1 {
+    width: 100px;
+}
+.input_color2, .input_size2, .input_price2 {
+    width: 100px;
+}
+.input_color3, .input_size3, .input_price3 {
+    width: 100px;
+}
+
+.afsh, .afsw {
+    color: white;
+    border: 2px double white;
+    border-radius: 7px;
+}
+
+.lo_ad1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.lo_ad {
+    margin: 3px;
+    width: 90px;
+    border: 2px double white;
+    border-radius: 7px;
+    box-shadow: 3px 3px 23px #acfc34;
+    transition: transform 2s;
+}
+
+.lo_ad:hover {
+    background-color: #acfc34;
+    box-shadow: 3px 3px 23px #acfc34;
+    color: rgb(40, 9, 194);
+    transform: scale(0.8,0.8);
+}
