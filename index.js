@@ -247,13 +247,9 @@ function myfun2s(num) {
    
 let shirt3, c_value3, p_value3, s_value3;
 
-shirt3 = {
-   price:0,
-   color:"",
-   size:""
-};
+shirt3 = JSON.parse(localStorage.getItem('shirt3'));
 
-    console.log(JSON.parse(localStorage.getItem('shirt3')));
+   
     document.querySelector('.shirt_3_h6').innerHTML = "  price :" + shirt3.price + " \n color :"  + shirt3.color   + " \n size :" + shirt3.size;
     document.querySelector('.shirt_3_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -314,13 +310,9 @@ function myfun3s(num) {
 
 let shirt4, c_value4, p_value4, s_value4;
 
-shirt4 = {
-   price:0,
-   color:"",
-   size:""
-};
+shirt4 = JSON.parse(localStorage.getItem('shirt4'));
 
-    console.log(JSON.parse(localStorage.getItem('shirt4')));
+    
     document.querySelector('.shirt_4_h6').innerHTML = "  price :" + shirt4.price + " \n color :"  + shirt4.color   + " \n size :" + shirt4.size;
     document.querySelector('.shirt_4_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -379,13 +371,9 @@ function myfun4s(num) {
 
 let shirt5, c_value5, p_value5, s_value5;
 
-shirt5 = {
-   price:0,
-   color:"",
-   size:""
-};
+shirt5 = JSON.parse(localStorage.getItem('shirt5'));
 
-    console.log(JSON.parse(localStorage.getItem('shirt5')));
+    
     document.querySelector('.shirt_5_h6').innerHTML = "  price :" + shirt5.price + " \n color :"  + shirt5.color   + " \n size :" + shirt5.size;
     document.querySelector('.shirt_5_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -444,13 +432,9 @@ function myfun5s(num) {
 
 let shirt7, c_value7, p_value7, s_value7;
 
-shirt7 = {
-   price:0,
-   color:"",
-   size:""
-};
+shirt7 = JSON.parse(localStorage.getItem('shirt7'));
 
-    console.log(JSON.parse(localStorage.getItem('shirt7')));
+    console.log();
     document.querySelector('.shirt_7_h6').innerHTML = "  price :" + shirt7.price + " \n color :"  + shirt7.color   + " \n size :" + shirt7.size;
     document.querySelector('.shirt_7_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -507,13 +491,9 @@ function myfun7s(num) {
 
 let shirt8, c_value8, p_value8, s_value8;
 
-shirt8 = {
-   price:0,
-   color:"",
-   size:""
-};
+shirt8 = JSON.parse(localStorage.getItem('shirt8'));
 
-    console.log(JSON.parse(localStorage.getItem('shirt8')));
+    
     document.querySelector('.shirt_8_h6').innerHTML = "  price :" + shirt8.price + " \n color :"  + shirt8.color   + " \n size :" + shirt8.size;
     document.querySelector('.shirt_8_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -573,13 +553,9 @@ function myfun8s(num) {
 
 let shirt9, c_value9, p_value9, s_value9;
 
-shirt9 = {
-   price:0,
-   color:"",
-   size:""
-};
+shirt9 = JSON.parse(localStorage.getItem('shirt9'));
 
-    console.log(JSON.parse(localStorage.getItem('shirt9')));
+    
     document.querySelector('.shirt_9_h6').innerHTML = "  price :" + shirt9.price + " \n color :"  + shirt9.color   + " \n size :" + shirt9.size;
     document.querySelector('.shirt_9_h6').style = "font-size: 12px; font-weight: bold;";
 
@@ -638,13 +614,9 @@ function myfun9s(num) {
 
 let shirt10, c_value10, p_value10, s_value10;
 
-shirt10 = {
-   price:0,
-   color:"",
-   size:""
-};
+shirt10 = JSON.parse(localStorage.getItem('shirt10'));
 
-    console.log(JSON.parse(localStorage.getItem('shirt10')));
+   
 
     document.querySelector('.shirt_10_h6').innerHTML = "  price :" + shirt10.price + " \n color :"  + shirt10.color   + " \n size :" + shirt10.size;
     document.querySelector('.shirt_10_h6').style = "font-size: 12px; font-weight: bold;";
@@ -708,12 +680,8 @@ function myfun10s(num) {
 
 let sweater12, c_value12, p_value12,s_value12;
 
-/*sweater12 = JSON.parse(localStorage.getItem('sweater12'));*/
-sweater12 = {
-   price:0,
-   color:"",
-   size:""};
-    console.log(JSON.parse(localStorage.getItem('sweater12')));
+sweater12 = JSON.parse(localStorage.getItem('sweater12'));
+
     document.querySelector('.sweater_2_h6').innerHTML = "  price :" + sweater12.price + " \n color :"  + sweater12.color   + " \n size :" + sweater12.size;
     document.querySelector('.sweater_2_h6').style = "font-size: 15px; font-weight: bold;";
 
@@ -771,13 +739,9 @@ function myfun2sw(num) {
    
 let sweater13, c_value13, p_value13, s_value13;
 
-/*sweater13 = JSON.parse(localStorage.getItem('sweater13'));*/
+sweater13 = JSON.parse(localStorage.getItem('sweater13'));
 
-sweater13 = {
-   price:0,
-   color:"",
-   size:""};
-    console.log(JSON.parse(localStorage.getItem('sweater13')));
+
 
     document.querySelector('.sweater_3_h6').innerHTML = "  price :" + sweater13.price + " \n color :"  + sweater13.color   + " \n size :" + sweater13.size;
     document.querySelector('.sweater_3_h6').style = "font-size: 15px; font-weight: bold;";
@@ -837,12 +801,7 @@ function myfun3sw(num) {
 
 let sweater14, c_value14, p_value14, s_value14;
 
-/*sweater14 = JSON.parse(localStorage.getItem('sweater14'));*/
-sweater14 = {
-   price:0,
-   color:"",
-   size:""};
-    console.log(JSON.parse(localStorage.getItem('sweater14')));
+sweater14 = JSON.parse(localStorage.getItem('sweater14'));
 
     document.querySelector('.sweater_4_h6').innerHTML = "  price :" + sweater14.price + " \n color :"  + sweater14.color   + " \n size :" + sweater14.size;
     document.querySelector('.sweater_4_h6').style = "font-size: 15px; font-weight: bold;";
@@ -902,12 +861,8 @@ function myfun4sw(num) {
 
 let sweater15, c_value15, p_value15, s_value15;
 
-/*sweater15 = JSON.parse(localStorage.getItem('sweater14'));*/
-sweater15 = {
-   price:0,
-   color:"",
-   size:""};
-    console.log(JSON.parse(localStorage.getItem('sweater15')));
+sweater15 = JSON.parse(localStorage.getItem('sweater14'));
+
     document.querySelector('.sweater_5_h6').innerHTML = "  price :" + sweater15.price + " \n color :"  + sweater15.color   + " \n size :" + sweater15.size;
     document.querySelector('.sweater_5_h6').style = "font-size: 15px; font-weight: bold;";
 
@@ -966,12 +921,9 @@ function myfun5sw(num) {
 
 let sweater17, c_value17, p_value17, s_value17;
 
-/*sweater17 = JSON.parse(localStorage.getItem('sweater14'));*/
-sweater17 = {
-   price:0,
-   color:"",
-   size:""};
-    console.log(JSON.parse(localStorage.getItem('sweater17')));
+sweater17 = JSON.parse(localStorage.getItem('sweater14'));
+
+
     document.querySelector('.sweater_7_h6').innerHTML = "  price :" + sweater17.price + " \n color :"  + sweater17.color   + " \n size :" + sweater17.size;
     document.querySelector('.sweater_7_h6').style = "font-size: 15px; font-weight: bold;";
 
@@ -1031,12 +983,8 @@ function myfun7sw(num) {
 
 let sweater18, c_value18, p_value18, s_value18;
 
-/*sweater18 = JSON.parse(localStorage.getItem('sweater14'));*/
-sweater18 = {
-   price:0,
-   color:"",
-   size:""};
-    console.log(JSON.parse(localStorage.getItem('sweater18')));
+sweater18 = JSON.parse(localStorage.getItem('sweater14'));
+
     document.querySelector('.sweater_8_h6').innerHTML = "  price :" + sweater18.price + " \n color :"  + sweater18.color   + " \n size :" + sweater18.size;
     document.querySelector('.sweater_8_h6').style = "font-size: 15px; font-weight: bold;";
 
@@ -1096,12 +1044,7 @@ function myfun8sw(num) {
 
 let sweater19, c_value19, p_value19, s_value19;
 
-/*sweater19 = JSON.parse(localStorage.getItem('sweater14'));*/
-sweater19 = {
-   price:0,
-   color:"",
-   size:""};
-    console.log(JSON.parse(localStorage.getItem('sweater19')));
+sweater19 = JSON.parse(localStorage.getItem('sweater14'));
     document.querySelector('.sweater_9_h6').innerHTML = "  price :" + sweater19.price + " \n color :"  + sweater19.color   + " \n size :" + sweater19.size;
     document.querySelector('.sweater_9_h6').style = "font-size: 15px; font-weight: bold;";
 
@@ -1163,12 +1106,7 @@ function myfun9sw(num) {
 
 let sweater110, c_value110, p_value110, s_value110;
 
-/*sweater110 = JSON.parse(localStorage.getItem('sweater14'));*/
-sweater110 = {
-   price:0,
-   color:"",
-   size:""};
-    console.log(JSON.parse(localStorage.getItem('sweater110')));
+sweater110 = JSON.parse(localStorage.getItem('sweater14'));
     document.querySelector('.sweater_10_h6').innerHTML = "  price :" + sweater110.price + " \n color :"  + sweater110.color   + " \n size :" + sweater110.size;
     document.querySelector('.sweater_10_h6').style = "color: red;font-size: 15px; font-weight: bold;";
 
