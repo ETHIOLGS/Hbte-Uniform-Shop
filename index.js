@@ -185,13 +185,9 @@ function myfun03() {
 
 let shirt2, c_value2, p_value2,s_value2;
 
-shirt2 = {
-   price:0,
-   color:"",
-   size:""
-};
+shirt2 = JSON.parse(localStorage.getItem('shirt'));
 
-    console.log(JSON.parse(localStorage.getItem('shirt')));
+    
     document.querySelector('.shirt_2_h6').innerHTML = "  price :" + shirt2.price + " \n color :"  + shirt2.color   + " \n size :" + shirt2.size;
     document.querySelector('.shirt_2_h6').style = "font-size: 12px; font-weight: bold;";
 
